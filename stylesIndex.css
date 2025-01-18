@@ -4,17 +4,17 @@
     color:aliceblue;
 }
 .h-title{
-    size: 88px;
+    size: 888px;
     color: yellow;
 }
 .h-subtitle{
-    size: 55px;
+    size: 555px;
     color: white;
 }
 .logo-title{
     size: 24px;
     margin-top: 0.5rem;
-    margin-left: 88px;
+    text-align: center;
 }
 .container{
     margin-top: 222px;
@@ -34,22 +34,40 @@
     padding: 1rem;
 }
 .cards1{
-    width: 33%;
+    width: 34%;
     background-color: blue;
+    padding: 0.6rem;
+    margin-right: 5px;
+    border: bold;
+    box-shadow: 1px 1px 3px 3px rgba(2, 44, 99, 0)
 }
 .cards2{
-    width: 33%;
+    width: 34%;
     background-color: blue;
+    padding: 0.5rem;
+    margin-right: 5px;
+    border: bold;
+    box-shadow: 1px 1px 3px 3px rgba(2, 44, 99, 0)
 }
 .cards3{
-    width: 33%;
+    width: 34%;
     background-color: blue;
+    padding: 0.5rem;
 }
 button{
     background-color:black;
     color: white;
-    width: 70%;
-    margin-left: 35px;
+    cursor: pointer;
+    width: 22%;
+    margin-left: 188px;
+    border-radius: 5px;
     margin-top: 0.5rem;
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 1, 1);
+}
+button:hover{
+    background-color: #3d032a;
+}
+.image-group{
+    margin-top: 0.6rem;
+    text-align: center;
 }
