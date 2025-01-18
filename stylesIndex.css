@@ -4,11 +4,12 @@
     color:aliceblue;
 }
 .h-title{
-    size: 888px;
+    font-size: 46px;
     color: yellow;
 }
 .h-subtitle{
-    size: 555px;
+    font-stretch: expanded;
+    font-size: 35px;
     color: white;
 }
 .logo-title{
@@ -70,4 +71,17 @@ button:hover{
 .image-group{
     margin-top: 0.6rem;
     text-align: center;
+}
+input{
+    width: 66%;
+    height: 22px;
+    padding: 0.9rem;
+    font-size:1.2rem;
+    border-radius: 6px;
+    border: 0;
+    margin: 10px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #009E9E
 }

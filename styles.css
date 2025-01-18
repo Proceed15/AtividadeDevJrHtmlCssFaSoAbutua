@@ -125,7 +125,7 @@ button:hover{
     align-content: space-around;
 }
 
-.input{
+input{
     width: 95%;
     height: 22px;
     padding: 0.9rem;
