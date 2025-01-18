@@ -3,12 +3,22 @@
     background-color: #565656;
     color:aliceblue;
 }
+.container{
+    /*justify-content: space-around;*/
+    background-color: #3d032a
+}
+.header{
+    width: 100%;
+    margin-top: 222px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
 .h-title{
     font-size: 46px;
     color: yellow;
 }
 .h-subtitle{
-    font-stretch: expanded;
     font-size: 35px;
     color: white;
 }
@@ -17,22 +27,16 @@
     margin-top: 0.5rem;
     text-align: center;
 }
-.container{
-    margin-top: 222px;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #3d032a
-}
-.cad-register{
-    width: 100%;
-    background-color: #770a53;
-}
 .flex-container{
+    
     display: flex;
     justify-content: space-around;
     padding: 1rem;
+}
+.body-container{
+    width: 100%;
+    background-color: #770a53;
+    align-items: center;
 }
 .cards1{
     width: 34%;
@@ -40,7 +44,7 @@
     padding: 0.6rem;
     margin-right: 5px;
     border: bold;
-    box-shadow: 1px 1px 3px 3px rgba(2, 44, 99, 0)
+    box-shadow: 1px 1px 3px 3px rgba(2, 44, 99, 0);
 }
 .cards2{
     width: 34%;
@@ -48,22 +52,25 @@
     padding: 0.5rem;
     margin-right: 5px;
     border: bold;
-    box-shadow: 1px 1px 3px 3px rgba(2, 44, 99, 0)
+    box-shadow: 1px 1px 3px 3px rgba(2, 44, 99, 0);
 }
 .cards3{
     width: 34%;
     background-color: blue;
     padding: 0.5rem;
+    border: bold;
+    box-shadow: 1px 1px 3px 3px rgba(2, 44, 99, 0);
 }
 button{
+    padding: 0.5rem 1.3rem;
     background-color:black;
     color: white;
     cursor: pointer;
-    width: 22%;
-    margin-left: 188px;
+    width: 100%;
     border-radius: 5px;
     margin-top: 0.5rem;
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 1, 1);
+    text-align: center;
 }
 button:hover{
     background-color: #3d032a;
@@ -73,8 +80,8 @@ button:hover{
     text-align: center;
 }
 input{
-    width: 66%;
-    height: 22px;
+    width: 96%;
+    height: 9px;
     padding: 0.9rem;
     font-size:1.2rem;
     border-radius: 6px;
@@ -84,4 +91,13 @@ input{
 input:focus{
     outline: none;
     box-shadow: 0 0 10px #009E9E
+}
+@media (max-width: 620px){
+    .flex-container{
+        flex-direction: column;
+    }
+    .cards1, .cards2, .cards3{
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
