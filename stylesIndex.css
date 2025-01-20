@@ -4,39 +4,57 @@
     color:aliceblue;
 }
 .container{
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 1rem;
     /*justify-content: space-around;*/
     background-color: #3d032a
 }
 .header{
     width: 100%;
-    margin-top: 222px;
     margin-right: auto;
     margin-left: auto;
-    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.credits{
+    margin-bottom: 0.1rem;
 }
 .h-title{
-    font-size: 46px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
     color: yellow;
 }
 .h-subtitle{
-    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 32px;
     color: white;
+    margin-bottom: 20px;
 }
 .logo-title{
+    font-weight: bold;
     size: 24px;
     margin-top: 0.5rem;
     text-align: center;
 }
-.flex-container{
-    
+.text-r{
+    justify-content: center;
+}
+.flex-container{ 
     display: flex;
     justify-content: space-around;
     padding: 1rem;
 }
 .body-container{
     width: 100%;
-    background-color: #770a53;
+    background-color: #560c3d;
     align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 .cards1{
     width: 34%;
@@ -80,7 +98,7 @@ button:hover{
     text-align: center;
 }
 input{
-    width: 96%;
+    width: 80%;
     height: 9px;
     padding: 0.9rem;
     font-size:1.2rem;
