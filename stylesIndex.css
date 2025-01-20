@@ -94,6 +94,7 @@ button:hover{
     background-color: #3d032a;
 }
 .image-group{
+    size: 111px;
     margin-top: 0.6rem;
     text-align: center;
 }
