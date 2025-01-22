@@ -71,7 +71,7 @@
     width: 100%;
     filter: brightness(300%)
 }
-.cards1{
+.col-1{
     width: 23%;
     background-color: blue;
     padding: 0.5rem;
@@ -79,7 +79,7 @@
     box-shadow: 1px 1px 3px 3px rgb(2, 44, 99);
     border-radius: 10px;
 }
-.cards2{
+.col-2{
     width: 23%;
     background-color: blue;
     padding: 0.5rem;
@@ -87,7 +87,7 @@
     box-shadow: 1px 1px 3px 3px rgb(2, 44, 99);
     border-radius: 10px;
 }
-.cards3{
+.col-3{
     width: 23%;
     background-color: blue;
     padding: 0.5rem;
@@ -132,15 +132,20 @@ input:focus{
     outline: none;
     box-shadow: 0 0 10px #009E9E
 }
-@media (max-width: 620px){
+@media (max-width: 720px){
     .html{
         font-size: 12px;
+    }
+    .container{
+        margin-right: none;
+        margin-left: none;
     }
     .flex-container{
         flex-direction: column;
     }
-    .cards1, .cards2, .cards3{
+    .col-1, .col-2, .col-3{
         width: 100%;
         box-sizing: border-box;
+        margin-bottom: 20px;
     }
 }
