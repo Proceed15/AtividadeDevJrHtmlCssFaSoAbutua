@@ -6,11 +6,12 @@
 .container{
     border-radius: 10px;
     text-align: center;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 1rem;
     /*justify-content: space-around;*/
-    background-color: #3d032a
+    background-color: #3d032a;
+    max-width: 900px;
 }
 .header{
     width: 100%;
@@ -132,7 +133,7 @@ input:focus{
     outline: none;
     box-shadow: 0 0 10px #009E9E
 }
-@media (max-width: 720px){
+@media (max-width: 880px){
     .html{
         font-size: 12px;
     }
